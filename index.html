@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Blood Donation App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Blood Donation App</h1>
-    </header>
-    <main>
-        <section id="donor-form">
-            <h2>Donate Blood</h2>
-            <form id="donation-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" required>
-                <label for="blood-group">Blood Group:</label>
-                <select id="blood-group" required>
-                    <option value="A+">A+</option>
-                    <option value="B+">B+</option>
-                    <option value="O+">O+</option>
-                    <!-- Add more blood groups as needed -->
-                </select>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-        <section id="donor-list">
-            <h2>Donor List</h2>
-            <ul id="donor-list-container"></ul>
-        </section>
-    </main>
+    <h1>Blood Donation App</h1>
+    
+    <!-- Donor Information Form -->
+    <div id="donor-form">
+        <h2>Donor Information</h2>
+        <form id="donor-info-form">
+            <label for="donor-name">Name:</label>
+            <input type="text" id="donor-name" required>
+            
+            <label for="blood-group">Blood Group:</label>
+            <input type="text" id="blood-group" required>
+            
+            <label for="donor-age">Age:</label>
+            <input type="number" id="donor-age" required>
+            
+            <label for="donor-gender">Gender:</label>
+            <select id="donor-gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <label for="health-issues">Major Health Issues:</label>
+            <textarea id="health-issues"></textarea>
+            
+            <button type="button" id="submit-donor-info">Submit Donor Information</button>
+        </form>
+    </div>
+
+    <!-- Receiver Information Form (Similar to Donor Form) -->
+    <div id="receiver-form">
+        <h2>Receiver Information</h2>
+        <!-- Receiver Form Here -->
+    </div>
+
+    <div id="message"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
+
