@@ -1,46 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-header {
-    background-color: #e74c3c;
-    color: #fff;
+h1 {
     text-align: center;
-    padding: 1rem 0;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h2 {
-    color: #e74c3c;
 }
 
 form {
-    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
+label,
 input,
 select,
-button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+textarea {
+    display: block;
+    margin-bottom: 10px;
 }
 
 button {
-    background-color: #e74c3c;
+    padding: 10px 20px;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
 }
