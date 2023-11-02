@@ -3,7 +3,7 @@ Project Title: Blood Donation Web App
 
 Description:
 
-The Blood Donation Web App is an application created using HTML, CSS, JavaScript for the frontend, and SQL for the backend. Its primary purpose is to connect blood donors with recipients, making it easy for users to find and request blood donations.
+The Blood Donation Web App is an application created using HTML, CSS, ava and JavaScript for the frontend, and SQL for the backend. Its primary purpose is to connect blood donors with recipients, making it easy for users to find and request blood donations.
 
 Key Features:
 
